@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_stat" id="0x7f010000" />
+    <public type="id" name="notif_root" id="0x7f020000" />
+    <public type="id" name="notif_text" id="0x7f020001" />
+    <public type="id" name="notif_title" id="0x7f020002" />
+    <public type="layout" name="notif_small" id="0x7f030000" />
+    <public type="mipmap" name="ic_launcher" id="0x7f040000" />
+    <public type="string" name="a11y_description" id="0x7f050000" />
+    <public type="string" name="a11y_label" id="0x7f050001" />
+    <public type="string" name="app_name" id="0x7f050002" />
+    <public type="string" name="channel_name" id="0x7f050003" />
+    <public type="string" name="channel_text" id="0x7f050004" />
+    <public type="string" name="notif_listener_description" id="0x7f050005" />
+    <public type="string" name="notif_listener_label" id="0x7f050006" />
+    <public type="xml" name="accessibility_service_config" id="0x7f060000" />
+</resources>

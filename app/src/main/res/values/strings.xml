@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_description">Служба нужна питомцу Clawd, чтобы видеть элементы экрана: стоять на пузырях сообщений и поле ввода при включённой гравитации, съедать кнопки и иконки, а ещё замечать открытые чаты и отправленные сообщения. Без этой службы питомец продолжает гулять по экрану, но без этих функций.</string>
+    <string name="a11y_label">Clawd — доступ к экрану</string>
+    <string name="app_name">clawd</string>
+    <string name="channel_name">Питомец Clawd</string>
+    <string name="channel_text">Питомец гуляет по экрану</string>
+    <string name="notif_listener_description">Служба нужна питомцу Clawd, чтобы замечать новые сообщения: радоваться «привет», «люблю» и «ахаха», а также танцевать под играющую музыку и голосовые сообщения.</string>
+    <string name="notif_listener_label">Clawd — уведомления</string>
+</resources>
