@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.frizovdanya.clawd'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.frizovdanya.clawd"
+        minSdk 26
+        targetSdk 34
+        versionCode 4
+        versionName "1.8"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../keystore/clawd.jks")
+            storePassword "clawd-frizovdanya"
+            keyAlias "clawd"
+            keyPassword "clawd-frizovdanya"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+}
