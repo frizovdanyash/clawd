@@ -1,9 +1,8 @@
 # clawd
 
-pixel-pet overlay for Android — порт плагина «clawd» с exteragram.
+pixel-pet overlay for Android 
 
-- создатель плагина: t.me/itskotovski
-- создатель порта: t.me/frizovdanya
+- создатель: t.me/frizovdanya
 
 ## Build
 
